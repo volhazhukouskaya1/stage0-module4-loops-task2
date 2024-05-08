@@ -18,8 +18,7 @@ public class PowerOfTwo {
                 } else {
                     System.out.println(counter);
                 }
-
-                counter = counter * 2;
+                counter *=2;
             }
         }
     }
