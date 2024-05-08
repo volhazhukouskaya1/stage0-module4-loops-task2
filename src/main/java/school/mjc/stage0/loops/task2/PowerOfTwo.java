@@ -10,7 +10,7 @@ public class PowerOfTwo {
         else if (power == 0) {
             System.out.println(1);}
         else {
-            while (counter <= power) {
+            while (counter < power) {
 
                 if (counter == 0) {
                     counter = 1;
