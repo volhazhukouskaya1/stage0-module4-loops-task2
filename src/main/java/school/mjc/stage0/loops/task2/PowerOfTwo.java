@@ -10,15 +10,16 @@ public class PowerOfTwo {
         else if (power == 0) {
             System.out.println(1);}
         else {
-            while (counter < power) {
+            while (counter <= power) {
 
                 if (counter == 0) {
                     counter = 1;
+                    System.out.println(counter);
                 } else {
-                    counter = counter * 2;
+                    System.out.println(counter);
                 }
 
-                System.out.println(counter);
+                counter = counter * 2;
             }
         }
     }
